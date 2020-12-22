@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Set up environment variables
+
+cp .env .env.local
+
 ## Available Scripts
 
 In the project directory, you can run:
