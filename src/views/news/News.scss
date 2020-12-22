@@ -1,0 +1,14 @@
+@import 'styles/variables';
+
+.na-News {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0;
+
+	.na-ArticleThumb {
+		.na-Image {
+			width: 100%;
+			height: 200px;
+		}
+	}
+}

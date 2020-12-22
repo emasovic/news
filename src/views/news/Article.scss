@@ -1,0 +1,12 @@
+.na-Article {
+	.na-ArticleThumb {
+		width: auto;
+		max-width: unset;
+		padding: 0 100px;
+		border: none;
+
+		.na-Image {
+			width: 100%;
+		}
+	}
+}
