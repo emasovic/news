@@ -8,6 +8,11 @@ export const COUNTRY_LABELS = {
 	[COUNTRY.us]: 'US',
 };
 
+export const COUNTRY_NAMES = {
+	[COUNTRY.gb]: 'Great Britain',
+	[COUNTRY.us]: 'United States',
+};
+
 export const DEFAULT_CRITERIA = {
 	country: COUNTRY.gb,
 };
