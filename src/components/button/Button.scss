@@ -1,0 +1,10 @@
+.na-Button {
+	background-color: #fff;
+	min-height: 40px;
+	min-width: 40px;
+
+	&.active {
+		background-color: #ffa500;
+		color: #fff;
+	}
+}

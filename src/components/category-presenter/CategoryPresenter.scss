@@ -1,0 +1,40 @@
+.na-CategoryPresenter {
+	display: flex;
+	flex-direction: column;
+
+	&-title {
+		margin-bottom: 12px;
+
+		a {
+			text-transform: capitalize;
+			margin-right: 12px;
+		}
+	}
+
+	&-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		&-news {
+			overflow: hidden;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 0 12px;
+
+			.na-ArticleThumb {
+				max-width: 200px;
+
+				&:nth-child(3) {
+					margin-right: 12px;
+				}
+
+				.na-Image {
+					width: 100%;
+					height: 200px;
+				}
+			}
+		}
+	}
+}

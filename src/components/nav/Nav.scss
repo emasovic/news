@@ -1,0 +1,23 @@
+.na-Nav {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #000;
+
+	&-items {
+		display: flex;
+
+		a {
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	&-countries {
+		.na-Button {
+			border: none;
+			border-left: 1px solid #000;
+		}
+	}
+}

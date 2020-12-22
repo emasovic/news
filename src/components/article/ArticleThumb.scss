@@ -1,0 +1,41 @@
+@import 'styles/variables';
+
+.na-ArticleThumb {
+	display: flex;
+	flex-direction: column;
+	max-width: $article-width;
+	width: 100%;
+	min-height: 300px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	border: 1px solid #000;
+	border-radius: 6px;
+	padding: 10px;
+
+	&:nth-child(3),
+	&:last-child {
+		margin-right: 0;
+	}
+
+	h3 {
+		max-height: 68px;
+		height: 100%;
+		overflow: hidden;
+	}
+
+	span {
+		flex-grow: 1;
+		min-height: 100px;
+		margin-bottom: 12px;
+	}
+
+	div {
+		&:last-child {
+			cursor: pointer;
+		}
+	}
+
+	.na-Image {
+		margin-bottom: 10px;
+	}
+}
